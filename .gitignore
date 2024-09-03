@@ -1,0 +1,80 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder attributes
+Icon?
+._*
+
+# macOS Thumbnails
+._.DS_Store
+._.Trashes
+
+# macOS Folder settings
+.Spotlight-V100
+.Trashes
+
+# macOS Temporary files
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# macOS swap files
+.Spotlight-V100/*
+.Trashes/*
+.fseventsd/*
+.AppleDB/
+.AppleDesktop/
+Network Trash Folder/
+Temporary Items/
+.apdisk
+
+# Backup files
+*.bak
+*.swp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+nosetests.xml
+test-results/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Environments
+.env
+.env.local
+.env.development
+.env.production
+.env.test
